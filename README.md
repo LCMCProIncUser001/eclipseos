@@ -1,3 +1,4 @@
+https://ci.appveyor.com/api/projects/status/ji3l4u4vvvgbdw06?svg=true
 # EclipseOS
 EclipseOS, A new era of Broadcasting, Now in your home computer!
 
