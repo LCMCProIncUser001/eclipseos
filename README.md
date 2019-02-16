@@ -6,3 +6,7 @@ Built entirely in Visual Basic.
 # Trello Board
 Join the Trello board for progress and cool stuff.
 Link: https://trello.com/invite/b/7VLMtMRf/cbcf0bb278aec90f733d61797eb71e50/eclipseos
+
+# Discord Server
+Join our Discord server talk with the community.
+Link: https://discord.gg/Zbxe5Vp
