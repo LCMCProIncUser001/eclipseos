@@ -1,6 +1,7 @@
 
 # EclipseOS
 EclipseOS, A new era of Broadcasting, Now in your home computer!
+Built entirely in Visual Basic.
 
 # Trello Board
 Join the Trello board for progress and cool stuff.
