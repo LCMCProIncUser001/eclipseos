@@ -30,6 +30,7 @@ Partial Class Desktop
         Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.ToolStripDropDownButton1 = New System.Windows.Forms.ToolStripDropDownButton()
         Me.ProgramsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.AboutToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ShutdownToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripStatusLabel1 = New System.Windows.Forms.ToolStripStatusLabel()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -90,9 +91,16 @@ Partial Class Desktop
         '
         'ProgramsToolStripMenuItem
         '
+        Me.ProgramsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AboutToolStripMenuItem})
         Me.ProgramsToolStripMenuItem.Name = "ProgramsToolStripMenuItem"
         Me.ProgramsToolStripMenuItem.Size = New System.Drawing.Size(128, 22)
         Me.ProgramsToolStripMenuItem.Text = "Programs"
+        '
+        'AboutToolStripMenuItem
+        '
+        Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(107, 22)
+        Me.AboutToolStripMenuItem.Text = "About"
         '
         'ShutdownToolStripMenuItem
         '
@@ -161,4 +169,5 @@ Partial Class Desktop
     Friend WithEvents ToolStripStatusLabel1 As ToolStripStatusLabel
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents Label2 As Label
+    Friend WithEvents AboutToolStripMenuItem As ToolStripMenuItem
 End Class
